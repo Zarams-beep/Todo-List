@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+html *, html *::before, html *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(32, 5, 50);
+  height: 100%;
+}
+
+.main-section {
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  max-width: 200%;
+  display: flex;
+  flex-direction: column;
+}
+.main-section .forInput {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.main-section .forInput input {
+  width: 100%;
+  padding: 3%;
+  background-color: rgb(32, 5, 50);
+  border: 1px solid rgb(189, 15, 189);
+  border-radius: 10px;
+  margin-right: 0.9%;
+  font-size: 1rem;
+  color: rgb(189, 15, 189);
+}
+.main-section .forInput input::-moz-placeholder {
+  font-size: 1rem;
+}
+.main-section .forInput input::placeholder {
+  font-size: 1rem;
+}
+.main-section .forInput button {
+  width: 10%;
+  font-size: 3rem;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(189, 15, 189);
+}
+.main-section .task {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1%;
+}
+.main-section .todoContainer, .main-section .todoContainer2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(219, 181, 244, 0.754);
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 10px;
+}
+.main-section .todoContainer p, .main-section .todoContainer2 p {
+  margin-left: 2%;
+  font-size: 1.2rem;
+  flex: 1;
+}
+.main-section .todoContainer .container-img, .main-section .todoContainer2 .container-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+.main-section .todoContainer .container-img img, .main-section .todoContainer2 .container-img img {
+  width: 1.5rem;
+}
+.main-section .done-container .todoContainer2 p {
+  text-decoration: line-through;
+}/*# sourceMappingURL=index.css.map */
